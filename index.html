@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+
+body {
+	background-image: url(fondo2.jpg);
+	background-repeat: repeat-x;
+	}
+
+#contenedor {
+	height: 1680px;
+	width: 1180px;
+	margin-left: 10%}
+	
+#menu {
+	height: 40px;
+	width: 1180px;
+	background-color: #3CC;
+	background-image: url(fondomenu.jpg);
+}
+
+a: link{
+	text-decoration: none;
+}
+	
+#header {
+	background-color: #09F;
+	height: 150px;
+	width: 1180px;
+	float: left;
+	background-image: url(fondoheader.jpg);
+	}
+	
+#photo {
+	height: 300px;
+	width: 1180px;
+	margin: auto;
+	right: 0px;
+	left: 0px;
+	background-image: url(banner.jpg);
+	font-size: 16px;
+	color: #FFF;
+	background-color: #333;
+	text-align: right;
+	vertical-align: middle;
+	float: left;
+	}
+
+#aside {
+	background-color: #999;
+	height: 1050px;
+	width: 20%;
+	float: left;
+	vertical-align: middle;
+	;
+}
+
+#content {
+	background-color: #666;
+	height: 1050px;
+	width: 80%;
+	float: left;
+}
+
+#photo p {
+	background-color: #333;
+	float: right;
+	position: relative;
+	top: 150px;
+	font-size: 30px;
+	}
+
+#apDiv1 {
+	position: absolute;
+	left: 1073px;
+	top: 107px;
+	width: 197px;
+	height: 32px;
+	z-index: 1;
+}
+
+#header div p {
+	font-size: 24px;
+	font-style: normal;
+	color: #FFF;
+	text-align: left;
+	font-weight: bolder;
+	letter-spacing: 0.4em;
+	padding-right: 6px;
+	top: 50px;
+	left: 20px;
+	position: relative;
+	}
+
+#cajita
+	{
+	vertical-align: middle;
+	position: relative;
+	float: right;
+	padding-right: 20px;
+	background-attachment: fixed;
+	background-image: url(search.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	}
+	
+#opciones {
+	width: 1000px;
+	height: 25px;
+	float: left;
+}
+ul{list-style:none;}
+ul > li{float:left;}
+ul > li a{
+	border-right: 1px solid #d2d2d2;
+	padding: 0 20px;
+	color: #FFF;
+	font-size: 12px;
+}
+
+img { float: left:
+}
+
+.main {
+	margin: 2em;
+	float: left;
+	top: 0px;
+}
+
+#text {
+	text-align: justify;
+	padding-right: 10px;
+	padding-left: 10px;	
+}
+
+#mmenu {
+	text-align: center;
+	padding-right: 5px;
+}
+
+.blackbox, blackbox2 {
+	color: #FFF;
+	background-color: #000;
+	display: inline;
+}
+
+
+.blackbox2 {
+	height: 25px;
+
+}
+
+
+.2 {
+	text-decoration: underline;
+	float: left;
+}
+#DescriptionText {
+	display: inline-block;
+}
+
+#footer {
+	background-color: #999;
+	height: 150px;
+	width: 100%;
+	float: left;
+	background-color: #CCC;
+	vertical-align: middle;
+}
+
+#footertext {
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-left: 400px;
+	background-color: #CCC;
+}
+
+.AsideTopText {
+	color: #000;
+	text-decoration: underline;
+	float: left;
+	text-align: center;
+	}
+
+#busca_txt {
+	background: #fafafa url(imagenes/search.png) top right no-repeat;
+	height: 30px;
+	}
+
+@media screen and (min-width: 320px) and (max-width: 550px) {
+
+#photo {display: none;}
+#aside {display: none;}
+}
+	
+
+
+</style>
+
+</head>
+
+<body>
+    <div id = "contenedor">
+    	<div id = "menu">
+        	<div id = "opciones">
+            	<ul>
+                	<li> <a href="" style="text-decoration:none"> HOME </a></li>
+                    <li> <a href="" style="text-decoration:none"> PREMIUM SERVICES</a></li>
+                    <li> <a href="" style="text-decoration:none"> STANDARD SERVICES</a></li>
+                    <li> <a href="" style="text-decoration:none"> STORE LOCATOR</a></li>
+                    <li> <a href="" style="text-decoration:none"> SOCIAL RESPONSIBILITY</a></li>
+                    <li> <a href="" style="text-decoration:none"> GET A QUOTE</a></li>
+                    <li> <a href="" style="text-decoration:none"> CONTACT</a></li>
+                    <li> <a href="" style="text-decoration:none"> ABOUT US</a></li>
+    			</ul>
+            </div>
+        </div>
+    	<div id = "header">
+          <div> <p> UNOFFICIAL CHANNELS</p> </div>
+            <div id = "cajita"><input id="busca_txt" name="" type="text" size="35" maxlength="35"> </div>
+    	</div>
+    	<div id= "photo">
+		  <p> INTERNATIONAL DELIVERY SOLUTIONS FOR YOUR SMALL BUSINESS </p>
+        </div>
+        <div id = "aside">
+        <div id ="mmenu">
+        <h2> Main Menu</h2>
+        </div>
+        <div>
+        <p class="AsideTopText"> Annual Charity Dinner </p>
+        <p class="AsideTopText"> Social Responsibility Fair </p>
+        
+        <!--- ul li dentro de cada li un h3 y a con el texto y un hr que separe los items-->
+		
+		
+		<h3> DESCRIPTION </h3>
+		<p id="DescriptionText"> Remember that we are always available via our hotline 1 800 444 5555. Please call from 8 to 5 EST. You may also reach our West Coast representatives calling from 9 to 6 PST. </p>
+		</div>
+        <div>
+		<a href="" style=color:#000>International Moving Solutions</a><br/><hr color="black" size="1"/>
+		<a href="" style=color:#000>International Money Exchange Solutions</a><br/><hr color="black" size="1"/>
+		<a href="" style=color:#000>International Courier for Small Businesses</a><br/><hr color="black" size="1"/>
+		<a href="" style=color:#000>International Money Transfer</a><br/>
+		</div>
+        </div>
+        <div id = "content">
+        	<div id= "text">
+            <p class= "main">
+    	<img src= "pic01.jpg" alt="image"> <h2 id="mmenu"> A Global Leader </h2>Thank you for choosing IDS for Small Businesses. We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.Thank you for choosing IDS for Small Businesses. We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.Thank you for choosing IDS for Small Businesses. We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.Thank you for choosing IDS for Small Businesses. We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.Thank you for choosing IDS for Small Businesses. We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.
+        <br/>
+                <h3> Do Business Internationally without leaving your Desk </h3>
+        We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.Thank you for choosing IDS for Small Businesses. We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.
+        <br/>
+        We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.Thank you for choosing IDS for Small Businesses. We are the established global leader in commodity transfer across the Americas, Europe and Asia. Whether you have a small or medium enterprise, whether it is a corporate or family business, we offer solutions tailored to your particular needs.
+        <br/>
+        <p><a href="www.google.com" style=color:#000>Instantly connect with a customer service representative via chat</a></p><hr color="black" size="1"/>
+        <p><a href="www.google.com" style=color:#000>Download our brochure with standard information regarding service rates within your area</a></p><hr color="black" size="1"/>
+        <p><a href="www.google.com" style=color:#000>Access our partner directory to achieve the best possible delivery experience<</a></p><hr color="black" size="1"/>
+        <p><a href="www.google.com" style=color:#000>Sign our guestbook or leave a suggestion for improvement</a></p><hr color="black" size="1"/>
+        <p><a href="www.google.com" style=color:#000>Reccomend this site to family, friends and business contacts</a></p>
+        <p>&nbsp;</p>
+        	</div>
+    	</div>
+        <div id="footer">
+        	<div id="footertext">
+	 Copyright 2013: Jose Maria Iriarte. All Rights Reserved
+     		</div>
+	 </div>
+     </div>
+	 
+</div>
+
+</body>
+</html>
